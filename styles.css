@@ -1,0 +1,45 @@
+@font-face {
+      font-family: link-font;
+      src: url(./fonts/JMH-Typewriter.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 4vw;
+  /* Use viewport width as a unit for responsive font size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.footer {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 150px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  font-size: 40px;
+  margin-right: 40px;
+  text-decoration: none;
+  font-family: link-font;
+  color: black;
+}
+
+@media only screen and (max-width: 350px) {
+  /* Adjustments for small screens */
+  .text {
+    font-size: 8vw;
+    /* Increase font size for smaller screens */
+  }
+}

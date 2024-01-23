@@ -1,0 +1,28 @@
+@font-face {
+      font-family: link-font;
+      src: url(../../fonts/JMH-Typewriter.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 4vw;
+  /* Use viewport width as a unit for responsive font size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: link-font;
+}
+
+@media only screen and (max-width: 350px) {
+  /* Adjustments for small screens */
+  .text {
+    font-size: 8vw;
+    /* Increase font size for smaller screens */
+  }
+}
