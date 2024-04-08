@@ -1,5 +1,5 @@
 # PUBLIC-CLUB™
-###   v2.1.0
+###   v2.1.1
 
 🐦 [PUBLIC-CLUB™](https://www.x.com/public___club)
 <br>
