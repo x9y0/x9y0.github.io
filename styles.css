@@ -1,0 +1,34 @@
+@font-face {
+    font-family: font;
+    src: url(fonts/CourierPrime-Regular.ttf);
+}
+
+body{
+    background-image: url(assets/p___c___banner.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.txt {
+    font-family: font;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 768px) {
+    .txt {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .txt {
+        font-size: 6vw;
+    }
+}
