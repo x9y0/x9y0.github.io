@@ -14,6 +14,7 @@ body, html {
     overflow: hidden;
     font-family: font;
     margin: 0;
+    user-select: none;
 }
 
 .centered-text {
