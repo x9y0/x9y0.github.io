@@ -3,32 +3,96 @@
     src: url(fonts/CourierPrime-Regular.ttf);
 }
 
-body{
-    background-image: url(assets/p___c___banner.jpg);
+body, html {
+    background-image: url(./assets/p___c___banner.jpg);
     background-position: center;
     background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
-.txt {
-    font-family: font;
-    color: white;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-size: 1.5vw;
+    overflow: hidden;
+    font-family: font;
+    margin: 0;
+}
+
+.centered-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+
+.menu {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 35px;
+    font-family: font;
+    position: fixed;
+    top: 0;
+    font-size: 2vw;
+}
+
+a {
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 1200px) {
+    .centered-text {
+        font-size: 2.5vw;
+    }
+    .menu {
+        font-size: 2.5vw;
+    }
+    a {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .centered-text {
+        font-size: 3vw;
+    }
+    .menu {
+        font-size: 3vw;
+    }
+    a {
+        font-size: 3vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .txt {
+    .centered-text, .menu {
         font-size: 4vw;
+    }
+    a {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .centered-text, .menu {
+        font-size: 5vw;
+    }
+    a {
+        font-size: 5.5vw;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .txt {
+    .centered-text, .menu {
         font-size: 6vw;
+    }
+    a {
+        font-size: 6.5vw;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .centered-text, .menu {
+        font-size: 6.5vw;
+    }
+    a {
+        font-size: 8vw;
     }
 }
